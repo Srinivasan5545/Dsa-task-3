@@ -1,0 +1,67 @@
+========================================================================
+STUDENT RECORD SEARCH SYSTEM — EXPERIMENT OUTPUT
+Dataset size: 40 records
+BST height (levels): 40
+AVL height (levels): 6
+Hash table capacity: 53
+Total collisions during hash insertion: 0
+BST insertion-position search comparisons (aggregate): 780
+AVL insertion-position search comparisons (aggregate): 177
+Hash insertion collisions (aggregate): 0
+------------------------------------------------------------------------
+Type           Key            Structure   Found     Comparisons
+Successful     605027401      BST         True      1
+Successful     605027401      AVL         True      5
+Successful     605027401      Hashing     True      1
+Successful     605027410      BST         True      10
+Successful     605027410      AVL         True      4
+Successful     605027410      Hashing     True      1
+Successful     605027420      BST         True      20
+Successful     605027420      AVL         True      4
+Successful     605027420      Hashing     True      1
+Successful     605027430      BST         True      30
+Successful     605027430      AVL         True      5
+Successful     605027430      Hashing     True      1
+Successful     605027440      BST         True      40
+Successful     605027440      AVL         True      6
+Successful     605027440      Hashing     True      1
+Unsuccessful   605027499      BST         False     40
+Unsuccessful   605027499      AVL         False     6
+Unsuccessful   605027499      Hashing     False     0
+Unsuccessful   605027450      BST         False     40
+Unsuccessful   605027450      AVL         False     6
+Unsuccessful   605027450      Hashing     False     0
+Unsuccessful   605027500      BST         False     40
+Unsuccessful   605027500      AVL         False     6
+Unsuccessful   605027500      Hashing     False     0
+Unsuccessful   605027399      BST         False     1
+Unsuccessful   605027399      AVL         False     5
+Unsuccessful   605027399      Hashing     False     0
+Unsuccessful   605027488      BST         False     40
+Unsuccessful   605027488      AVL         False     6
+Unsuccessful   605027488      Hashing     False     6
+Average successful search comparisons — BST: 20.20
+Average unsuccessful search comparisons — BST: 32.20
+Average successful search comparisons — AVL: 4.80
+Average unsuccessful search comparisons — AVL: 5.80
+Average successful search comparisons — Hashing: 1.00
+Average unsuccessful search comparisons — Hashing: 1.20
+
+Detailed search observations saved to results.csv
+
+Inorder traversal (first five records) — BST:
+605027401 Aarav Kumar
+605027402 Ananya Ravi
+605027403 Arjun S
+605027404 Aishwarya M
+605027405 Bharath K
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
